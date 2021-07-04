@@ -69,5 +69,14 @@ button{
 }
 .home{
 	width: 37px;
-	margin: 5px;
+	margin: 6px;
+}
+.part {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;  
+    transition: 0.15s;
+  }
+  .part:hover {
+    transform: scale(1.15);
 }
