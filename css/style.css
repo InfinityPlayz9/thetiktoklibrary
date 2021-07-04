@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
 *{
 	font-family: 'Montserrat', sans-serif;
 }
 
 body{
-	background-color: #171717;
+	background-color: #121212;
 }
 
 h1{
@@ -38,9 +38,26 @@ a:link{
 	color: #FF449F;
 	text-decoration: none;
 	transition: 0.5s;
-}a:hover {
+}
+a:hover {
   color: #F54748;
   background-color: transparent;
   transition: 0.5s;
   text-decoration: underline;
+}
+button{
+	padding: 5px 12px;
+  	height: 45px;
+  	width: 150px;
+	border-radius: 10px;
+	background-color: #2e2e2e;
+	color: #f9cd13;
+	border: transparent;
+	text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 9px;
+	display: block; 
+	margin: auto;
 }
