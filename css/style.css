@@ -16,6 +16,10 @@ h2{
 	font-size: 30px;
 }
 
+video{
+	align-content: center;
+}
+
 .white{
 	color: #fff;
 }
