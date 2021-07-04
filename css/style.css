@@ -21,6 +21,11 @@ h2{
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
 }
+.yellow-gradient2{
+	background: linear-gradient(#f9cd13, #f9cd13);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
 
 video{
 	align-content: center;
@@ -34,6 +39,9 @@ video{
 }
 .pink{
 	color: #FE2C55;
+}
+.yellow{
+	color: #f9cd13;
 }
 footer{
 	color: #4E4E4E;
@@ -79,4 +87,17 @@ button{
   }
   .part:hover {
     transform: scale(1.15);
+}
+.playlist{
+	padding: 5px 12px;
+  	height: 45px;
+  	width: 150px;
+	border-radius: 10px;
+	background-color: #2e2e2e;
+	text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	margin-bottom: 9px;
+	display: block; 
+	margin: auto;
 }
