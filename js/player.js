@@ -1,10 +1,14 @@
-video_count =1;
-videoPlayer = document.getElementById("auto");
+$("#volume").slider({
+  min: 0,
+  max: 100,
+  value: 0,
+  range: "min",
+  slide: function (event, ui) {
+    setVolume(ui.value / 100);
+  }
+});
 
-function run(){
-        video_count++;
-        if (video_count == 16) video_count = 1;
-        var nextVideo = "video"+video_count+".mp4";
-        videoPlayer.src = nextVideo;
-        videoPlayer.play();
-   };
+function setVolume(myVolume) {
+   var myMedia = document.getElementById('myMedia');
+   myMedia.volume = myVolume;
+}
