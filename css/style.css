@@ -53,7 +53,7 @@ a:link{
 	text-decoration: none;
 	transition: 0.5s;
 }
-a:hover {
+.foot {
   color: #F54748;
   background-color: transparent;
   transition: 0.5s;
