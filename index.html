@@ -27,6 +27,17 @@
 		  	<a href="#">Swedish</a> 
 		  </div>
       </div>
+		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+
+<script>
+    function SetVolume(val)
+    {
+        var player = document.getElementById('video');
+        console.log('Before: ' + player.volume);
+        player.volume = val / 100;
+        console.log('After: ' + player.volume);
+    }
+</script>
 <h1><span class="white">The</span> <span class="turquoise">Tik</span><span class="pink">Tok</span> <span class="white">Library</span></h1>
 		<h2 class="white">A bunch of TikToks that I found funny</h2>
 		<a href="#" onclick="window.location.href='karens.html'" class="yellow-gradient2 playlist">
