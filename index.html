@@ -16,28 +16,31 @@
 		<title>The TikTok Library</title>
 		<link rel="icon" type="image/png" href="img/tiktok.png"/>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/menu.css">
 	</head>
 
 	<body>
 	  <div class="dropdown">
         <img src="img/lang.png" class="lang part" onClick="window.location='/';">
           <div class="dropdown-content"> 
-		  	<a href="#">All</a> 
+		  	<a href="#" class="selected">All</a> 
 		  	<a href="#">English</a> 
 		  	<a href="#">Swedish</a> 
 		  </div>
       </div>
-		<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
-
-<script>
-    function SetVolume(val)
-    {
-        var player = document.getElementById('video');
-        console.log('Before: ' + player.volume);
-        player.volume = val / 100;
-        console.log('After: ' + player.volume);
-    }
-</script>
+	<div class="menu" style="float:right">
+        <div class="container">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+          <div class="menu-content" style="right:0;"> 
+		  	<a href="#">Comedy</a> 
+		  	<a href="#">Cool</a> 
+		  	<a href="#">Sad</a>
+		  </div>
+      </div>
+	
 <h1><span class="white">The</span> <span class="turquoise">Tik</span><span class="pink">Tok</span> <span class="white">Library</span></h1>
 		<h2 class="white">A bunch of TikToks that I found funny</h2>
 		<a href="#" onclick="window.location.href='karens.html'" class="yellow-gradient2 playlist">
@@ -45,7 +48,7 @@
     		Karens
 		</a>
 		
-	    <video width = "216" height = "384" controls> <source src = "tiktoks/video0.mp4" type = "video/mp4" id="video"> This browser doesn't support video tag. </video>
+	    <video width = "216" height = "384" controls> <source src = "tiktoks/video0.mp4" type = "video/mp4"> This browser doesn't support video tag. </video>
 		<video width = "216" height = "384" controls> <source src = "tiktoks/video1.mp4" type = "video/mp4"> This browser doesn't support video tag. </video>
 		<video width = "216" height = "384" controls> <source src = "tiktoks/video2.mp4" type = "video/mp4"> This browser doesn't support video tag. </video>
 		<video width = "216" height = "384" controls> <source src = "tiktoks/video3.mp4" type = "video/mp4"> This browser doesn't support video tag. </video>
