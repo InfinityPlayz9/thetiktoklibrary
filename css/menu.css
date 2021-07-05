@@ -32,6 +32,6 @@
 }
 
 /* Show the menu menu on hover */
-.menu:active .menu-content {
+.menu:hover .menu-content {
 	display: block;
 }
