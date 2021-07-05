@@ -9,3 +9,5 @@ Features coming soon:
 • AutoPlay
 
 • Centered videos so they're not adjacent to the left
+
+• Video compression for faster loading times
