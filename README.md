@@ -1,6 +1,6 @@
 # The TikTok Library
 
-I made this cuz I was bored.
+I made this cuz I was bored. (ok why am i spending so much time on this)
 
 Features coming soon:
 
